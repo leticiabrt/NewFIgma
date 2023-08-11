@@ -3,7 +3,7 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  border-bottom: 0.4rem solid ${colors.third};
+  border-bottom: 0.4rem solid ${colors.primary};
   display: flex;
   height: 6rem;
   picture {
@@ -13,6 +13,7 @@ export const Header = styled.header`
       height: 100%;
     }
   }
+  background-color: ${colors.primary};
 `
 
 export const NavBar = styled.nav`
@@ -25,19 +26,21 @@ export const NavBar = styled.nav`
     list-style-type: none;
     display: flex;
     align-items: center;
-    height: 100%;
     li {
       padding: 1rem;
       height: 100%;
-      display: flex;
-      align-items: center;
       a {
         text-decoration: none;
         color: var(--black);
+        display: flex;
+        align-items: center;
+        img {
+          height: 70px;
+        }
       }
     }
     li:hover {
-      background-color: ${colors.secondaryLight};
+      background-color: ${colors.secondary};
     }
   }
 

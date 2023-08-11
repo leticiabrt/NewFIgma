@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
+import Fundo from "../../assets/fundo.png"
 
 export const Aside = styled.aside`
   background-color: ${colors.thirdLight};

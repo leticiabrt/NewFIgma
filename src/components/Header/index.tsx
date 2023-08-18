@@ -18,13 +18,13 @@ export function Header() {
             <a href="#"><img src={Busca} alt="Busca" /></a>
           </li>
           <li>
-            <a href="#"><img src={Estante} alt="Estante" /></a>
+            <a href="/List"><img src={Estante} alt="Estante" /></a>
           </li>
           <li>
             <a href="#"><img src={Perfil} alt="Perfil" /></a>
           </li>
           <li>
-            <a href="#"><img src={Home} alt="Home" /></a>
+            <a href="/"><img src={Home} alt="Home" /></a>
           </li>
         </ul>
       </S.NavBar>

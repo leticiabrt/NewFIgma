@@ -13,16 +13,37 @@ export const Section = styled.section`
     grid-template-columns: auto;
   }
 
+
   background-image: url(${Fundo2});
   min-height: calc(100vh - 9rem);
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
   img {
     width: 100%;
+  }
+
+  .marcadores{
+    width: 100%;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-around;
+  }
+
+  .livros{
+    width: 100%;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
   }
 `
 

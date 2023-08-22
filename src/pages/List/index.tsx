@@ -7,17 +7,27 @@ import Avançar from "../../assets/avancar.png"
 import Todos from "../../assets/todos.png"
 import Lidos from "../../assets/lidos.png"
 import Lendo from "../../assets/queroler.png"
+import Queroler from "../../assets/queroler.png"
 
 
 export function Estante() {
   return (
     <S.Section>
-      <aside>
+      <aside className='marcadores'>
         <div>
-          <img src= alt="" />
+          <img src={Todos} alt="Todos" />
+        </div>
+        <div>
+          <img src={Lidos} alt="Lidos" />
+        </div>
+        <div>
+          <img src={Lendo} alt="Lendo" />
+        </div>
+        <div>
+          <img src={Queroler} alt="Quero Ler" />
         </div>
       </aside>
-      <aside>
+      <aside className='livros'>
         <div>
           <img src={Livro1} alt="livro 1" />
         </div>

@@ -7,6 +7,8 @@ export const Section = styled.section`
   width:100%;
   height: 100%;
   background-image: url(${Fundo});
+  background-repeat:no-repeat;
+  background-size:cover;
   min-height: calc(100vh - 9rem);
 
   display: flex;
@@ -17,8 +19,11 @@ export const Section = styled.section`
   img {
     width: 100%;
   }
+  div{
+    width: 20%;
+  }
   button{
-    width: 80px;
+    width: 90px;
     background-color: rgba(0,0,0,0);
     position: absolute;
     bottom: 5rem;

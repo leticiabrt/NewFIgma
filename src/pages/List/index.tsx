@@ -1,5 +1,5 @@
 import * as S from './styles'
-import { dados } from "../../services/dados"
+
 import Livro1 from "../../assets/livro1.png" 
 import Livro4 from "../../assets/livro4.png"
 import Livro5 from "../../assets/livro5.png"

@@ -63,3 +63,5 @@ export function Login() {
     </S.Section>
   );
 };
+
+export default Login;

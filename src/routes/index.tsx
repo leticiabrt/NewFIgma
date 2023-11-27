@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import { AdmPage, CadastrarPage, PageHome, PageList, PageLayout, LoginPage } from "../pages"
 import ProtectedRoute from "./ProtectedRoute"
-const Rotas = () => {
+const RouteSoftware = () => {
   return (
     <Routes>
       <Route element={<PageLayout />}>
@@ -16,5 +16,6 @@ const Rotas = () => {
   )
 
 }
-export default Rotas
+export default RouteSoftware
+
   

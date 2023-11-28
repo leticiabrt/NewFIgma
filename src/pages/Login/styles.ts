@@ -1,7 +1,12 @@
 import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
+import Fundo2 from "../../assets/fundo2.0.png"
 
 export const Section = styled.section`
+  background-image: url(${Fundo2});
+  min-height: calc(100vh - 9rem);
+  margin: 0 auto;
+
   height: 60vh;
   display: flex;
   align-items: center;

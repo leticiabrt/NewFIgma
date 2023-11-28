@@ -1,21 +1,22 @@
 import { Routes, Route } from "react-router-dom"
-import { AdmPage, CadastrarPage, PageHome, PageList, PageLayout, LoginPage } from "../pages"
+import { PageAdm, CadastrarPage, PageHome, PageList, PageLayout, PageLogin } from "../pages"
 import ProtectedRoute from "./ProtectedRoute"
-const RouteSoftware = () => {
+
+export const RouteSoftware = () => {
   return (
     <Routes>
       <Route element={<PageLayout />}>
         <Route path="" element={<PageHome />} />
         <Route path="/cadastrar" element={<CadastrarPage />}/> 
-        <Route path="//login" element={<LoginPage />}/>
+        <Route path="//login" element={<PageLogin />}/>
         <Route element={<ProtectedRoute />} />
-          <Route path="/adm" element={<AdmPage />} />
+          <Route path="/adm" element={<PageAdm />} />
         <Route path="/list" element={<PageList />} />
       </Route>
     </Routes>
   )
 
 }
-export default RouteSoftware
+
 
   

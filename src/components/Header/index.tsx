@@ -34,9 +34,6 @@ export function Header() {
             <a href="/List"><img src={Estante} alt="Estante" /></a>
           </li>
           <li>
-            <a href="#"><img src={Perfil} alt="Perfil" /></a>
-          </li>
-          <li>
             <a href="/"><img src={Home} alt="Home" /></a>
           </li>
         </ul>
@@ -54,7 +51,7 @@ export function Header() {
           ) : (
             <ul>
               <li>
-                <Link to="/login">Login</Link>
+                <Link to="/login"><img src={Perfil} alt="Login" /></Link>
               </li>
               <li>
                 <Link to="/cadastrar">Cadastrar</Link>
